@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import classes from './App.module.css';
 import ProductData from './Utils/ProductData'
 import ProductReview from './ProductReview/ProductReview';
