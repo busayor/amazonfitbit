@@ -1,0 +1,55 @@
+
+  
+  .ProductReview{
+    width: 100%;
+    position: relative;
+  }
+  
+  .ProductReview > img{
+    width: 100%;
+  }
+  
+  .TimeFeature{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .HeartRateFeature{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  @keyframes beat {
+    0% {
+      transform: scale(1, 1);
+    }
+  
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+  
+  .HeartRateFeature > i {
+    color: red;
+    animation: beat 1s infinite;
+  }
+  
+  .HeartRateFeature > p {
+    margin-top: 6px;
+  }
+  
+  
