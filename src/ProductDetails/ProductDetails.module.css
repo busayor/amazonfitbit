@@ -1,8 +1,9 @@
 
   
   .ProductData{
-    width: 50%;
-    flex-basis: 50%;
+    width: 100%;
+    /* width: 50%; */
+    /* flex-basis: 50%; */
   }
   
   .ProductTitle{
@@ -65,9 +66,9 @@
     margin-top: 36px;
   }
 
-@media (max-width: 600px){
+/* @media (max-width: 600px){
   .ProductData{
     width: 100%;
     flex-basis: 100%;
   }
-}
+} */

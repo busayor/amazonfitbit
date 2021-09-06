@@ -1,9 +1,10 @@
 
   
   .ProductReview{
-    width: 50%;
+    width: 100%;
+    /* width: 50%; */
     position: relative;
-    flex-basis: 50%;
+    /* flex-basis: 50%; */
   }
   
   .ProductReview > img{
@@ -16,7 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 600;
   }
   
@@ -53,9 +54,9 @@
     margin-top: 6px;
   }
   
-  @media (max-width: 600px){
+  /* @media (max-width: 600px){
     .ProductReview{
       width: 100%;
       flex-basis: 100%;
     }
-  }
+  } */

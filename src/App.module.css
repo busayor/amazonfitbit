@@ -9,12 +9,12 @@ body{
   width: 99.9vw;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
-/* @media (max-width: 600px){
+@media (max-width: 600px){
   .MainContainer{
     flex-direction: column;
   }
-} */
+}
 
