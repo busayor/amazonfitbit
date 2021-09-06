@@ -12,7 +12,7 @@ const ProductReview = (props) => {
             {
                 props.currentSelectedFeature === 1 ?
                 <div className={classes.HeartRateFeature}>
-                    {/* <i className="fas fa-heartbeat"></i> */}
+                    <i className="fas fa-heartbeat"></i>
                     <p>78</p>
                 </div>
                 :

@@ -1,8 +1,9 @@
 
   
   .ProductReview{
-    width: 100%;
+    width: 50%;
     position: relative;
+    flex-basis: 50%;
   }
   
   .ProductReview > img{
@@ -43,7 +44,7 @@
     }
   }
   
-  .HeartRateFeature > i {
+  .HeartRateFeature > svg{
     color: red;
     animation: beat 1s infinite;
   }
@@ -52,4 +53,9 @@
     margin-top: 6px;
   }
   
-  
+  @media (max-width: 600px){
+    .ProductReview{
+      width: 100%;
+      flex-basis: 100%;
+    }
+  }
